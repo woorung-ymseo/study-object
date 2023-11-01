@@ -4,22 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bbc576d-5b36-409e-aca1-e02c257c73b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/1장-객체설계.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/이미지/1.1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/이미지/1.2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/이미지/1.4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/이미지/1.6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/이미지/1.7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1장-객체설계/이미지/1.8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/Invitation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/TicketOffice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ticket/TicketSeller.java" afterDir="false" />
+    <list default="true" id="1bbc576d-5b36-409e-aca1-e02c257c73b7" name="Changes" comment="[오브젝트 스터디] 1장) 객체, 설계">
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2장-객체지향프로그래밍/2장-객체지향프로그래밍.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/AmountDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/DefaultDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/DiscountCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/NoneDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/PercentDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/PeriodCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/Screening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movie/SequenceCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +40,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="study-object" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,19 +79,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/1장-객체설계/이미지" />
@@ -78,11 +105,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697564539791</updated>
-      <workItem from="1697564541049" duration="14175000" />
+      <workItem from="1697564541049" duration="14598000" />
+      <workItem from="1697593125004" duration="1220000" />
+      <workItem from="1698793198474" duration="10687000" />
     </task>
+    <task id="LOCAL-00001" summary="[오브젝트 스터디] 1장) 객체, 설계">
+      <option name="closed" value="true" />
+      <created>1697579552466</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697579552466</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[오브젝트 스터디] 1장) 객체, 설계">
+      <option name="closed" value="true" />
+      <created>1697579630812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697579630812</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[오브젝트 스터디] 1장) 객체, 설계">
+      <option name="closed" value="true" />
+      <created>1697579787059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697579787059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[오브젝트 스터디] 1장) 객체, 설계" />
+    <option name="LAST_COMMIT_MESSAGE" value="[오브젝트 스터디] 1장) 객체, 설계" />
   </component>
 </project>
