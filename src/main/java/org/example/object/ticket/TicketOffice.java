@@ -1,4 +1,4 @@
-package org.example.ticket;
+package org.example.object.ticket;
 
 import java.util.ArrayList;
 import java.util.Arrays;

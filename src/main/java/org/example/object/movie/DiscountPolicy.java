@@ -1,4 +1,4 @@
-package org.example.movie;
+package org.example.object.movie;
 
 public interface DiscountPolicy {
 

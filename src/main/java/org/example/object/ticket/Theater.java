@@ -1,4 +1,4 @@
-package org.example.ticket;
+package org.example.object.ticket;
 
 public class Theater {
     private TicketSeller ticketSeller;

@@ -1,4 +1,4 @@
-package org.example.ticket;
+package org.example.object.ticket;
 
 /**
  * 관람객이 소지한 소지품
